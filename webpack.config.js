@@ -20,7 +20,7 @@ var loaders = [
     }
   },
   {
-    "test": /\.html?$/,
+    "test": /(\.html?|\.md)$/,
     "loader": "raw-loader"
   }
 ];

@@ -339,7 +339,7 @@ const rules = {
 const parser = SimpleMarkdown.parserFor(rules);
 const output = SimpleMarkdown.reactFor(SimpleMarkdown.ruleOutput(rules, 'react'));
 
-const preso = require("./preso.html") + "\n\n";
+const preso = require("./preso.md") + "\n\n";
 
 const SlidePresenter = React.createClass({
     propTypes: {
